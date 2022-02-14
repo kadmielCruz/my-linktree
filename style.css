@@ -1,5 +1,6 @@
 body{
     background: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
 }
 div{
 
@@ -14,9 +15,15 @@ div{
 }
 
 p,figcaption{
-    color: #BB99DD;
+    color: #ad8cce;
+}
+p{
+    margin: 0;
 }
 
+figcaption{
+    margin-bottom: 1.25rem;
+}
 img{
     width: 10rem;
     height: 12rem;
@@ -24,6 +31,10 @@ img{
     clip-path: circle(50% at 50% 50%);
     
     
+}
+.btn-social.t{
+    background-color: #7130b3;
+   
 }
 
 .circle {
@@ -54,6 +65,7 @@ a{
     text-decoration: none;
     border: 1px;
     border-style: solid;
+    
 
 }
 
@@ -61,6 +73,7 @@ a{
     display: flex;
     flex-direction: row;
     margin: 0;
+
     padding: 20px;
     height: 25px;
     width: 200px;
