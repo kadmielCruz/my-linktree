@@ -38,9 +38,11 @@ img{
   }
 a{
     text-decoration: none;
-    color: #BB99DD;
+    color: #a874dd;
     width: 100%;
     text-align: center;
+    font-size: large;
+    font-weight: bold;
 }
 
 
